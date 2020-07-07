@@ -1,0 +1,67 @@
+.Login {
+    width: 100%;
+}
+
+.Login form {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+label {
+    font-size: 1rem;
+    color: grey;
+    opacity: 1;
+    display: block;
+    align-self: flex-start;
+    margin-top: 3px;
+    transition: all .2s ease;
+    font-weight: 600;
+}
+
+.Login form input {
+    border-radius: 5px;
+    background: transparent;
+    border: 2px solid grey;
+    padding: 1rem;
+    width: 100%;
+    margin-top: .5rem;
+    position: relative;
+    color: grey;
+}
+
+.Login form input:placeholder-shown + label {
+    opacity: 0;
+    transform: translateY(-100%);
+}
+
+.submitButton {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 5px;
+    color: floralwhite;
+    background: transparent;
+    border: 2px solid grey;
+    margin-top: 1rem;
+    user-select: none;
+}
+
+.submitButton:focus {
+    outline: none;
+}
+
+.submitButton:disabled {
+    cursor: not-allowed;
+    color: rgb(196, 193, 193);
+    background-color: grey;
+}
+
+.error {
+    max-width: 30rem;
+    color: grey;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}

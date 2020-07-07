@@ -1,0 +1,97 @@
+.PlayerHolder {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: var(--color--primary);
+    width: 100vw;
+    height: var(--width--primary);
+    display: flex;
+    z-index: 101;
+}
+
+.PlayerHolder > div:not(:last-child) {
+    border-right: 1px solid grey;
+}
+
+.songHolder {
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+
+.playButton, .volumeHandler {
+    width: 8rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color--secondary);;
+    cursor: pointer;
+}
+
+.player {
+    width: 100%;
+    flex-basis: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loop, .stop, .unLoop, .unStop {
+    margin-left: 2rem;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.loop, .stop {
+    color: var(--color--secondary);
+}
+
+.unLoop, .unStop {
+    color: grey;
+}
+
+.imgCover {
+    width: 5.6rem;
+    height: 100%;
+    background-size: cover;
+    background-position: top;
+}
+
+.songDetails {
+    width: 100%;
+    flex-basis: 1;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.songName {
+    font-size: 1.4rem;
+    color: floralwhite;
+}
+
+.songArtist {
+    font-size: 1rem;
+    color: grey;
+}
+
+progress {
+    -webkit-appearance: none;
+    appearance: none;
+
+    width: 60rem;
+    height: .5rem;
+}
+
+progress::-webkit-progress-bar {
+    border-radius: 5px;
+}
+
+progress::-webkit-progress-value {
+    background-color: antiquewhite;
+    border-radius: 5px;
+}
+

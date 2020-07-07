@@ -1,0 +1,57 @@
+.SongItem {
+    width: 20rem;
+    height: 20rem;
+    cursor: pointer;
+    position: relative;
+}
+
+.songImage {
+    background-size: cover; 
+    height: 80%;
+    position: relative;
+}
+
+.songImage div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6));
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: opacity .3s ease;
+}
+
+.songImage:hover > div {
+    opacity: 1;
+}
+
+.title {
+    margin-top: 1rem;
+    color: rgb(54, 54, 54);
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.artist {
+    color: grey;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.icon {
+    color: var(--color--primary);
+    position: absolute;
+    bottom: 1rem;
+    right: 0.5rem;
+}
+
+.playIcon {
+    font-size: 3.5rem;
+    color: floralwhite;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: all .3s ease;
+}

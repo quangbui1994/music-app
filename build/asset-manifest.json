@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.88d2491f.chunk.css",
+    "main.js": "/static/js/main.1a8eb617.chunk.js",
+    "main.js.map": "/static/js/main.1a8eb617.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.81e194b1.js",
+    "runtime-main.js.map": "/static/js/runtime-main.81e194b1.js.map",
+    "static/js/2.4b8a38e8.chunk.js": "/static/js/2.4b8a38e8.chunk.js",
+    "static/js/2.4b8a38e8.chunk.js.map": "/static/js/2.4b8a38e8.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.f495b02c6b9f45d8e64a4c79f6fb9230.js": "/precache-manifest.f495b02c6b9f45d8e64a4c79f6fb9230.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.88d2491f.chunk.css.map": "/static/css/main.88d2491f.chunk.css.map",
+    "static/js/2.4b8a38e8.chunk.js.LICENSE.txt": "/static/js/2.4b8a38e8.chunk.js.LICENSE.txt",
+    "static/media/audio-e-guitars-guitars-music-6966.jpg": "/static/media/audio-e-guitars-guitars-music-6966.b82cedb3.jpg",
+    "static/media/SideBar.module.css": "/static/media/m-letter-music-logo-vector-260nw-1225238188.5f003e9a.webp"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.81e194b1.js",
+    "static/js/2.4b8a38e8.chunk.js",
+    "static/css/main.88d2491f.chunk.css",
+    "static/js/main.1a8eb617.chunk.js"
+  ]
+}

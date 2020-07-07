@@ -1,0 +1,28 @@
+.playGround {
+    width: 80%;
+    max-width: 80%;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 12rem 0;
+}
+
+.callout {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: grey;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+.discover {
+    color: rgb(32, 32, 32);
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.songContainer {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 3rem;
+}

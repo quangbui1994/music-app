@@ -1,0 +1,23 @@
+.SideBar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: var(--width--primary);
+    background-color: var(--color--primary);
+    z-index: 100;
+    text-align: center;
+}
+
+.logo {
+    width: 100%;
+    height: var(--width--primary);
+    background-image: url('../../assets//img/m-letter-music-logo-vector-260nw-1225238188.webp');
+    background-size: cover;
+}
+
+.icon {
+    color: var(--color--third);
+    cursor: pointer;
+    margin-top: 2rem;
+}

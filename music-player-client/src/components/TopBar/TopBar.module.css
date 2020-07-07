@@ -1,0 +1,46 @@
+.TopBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: var(--width--primary);
+    background: var(--color--primary);
+    display: flex;
+    align-items: center;
+    padding: 0 15rem;
+    z-index: 10;
+}
+
+.TopBar form {
+    display: flex;
+    width: 100%;
+}
+
+.searchIcon {
+    color: var(--color--third);
+    margin-right: 5px;
+}
+
+.searchField {
+    background: transparent;
+    border: none;
+    color: var(--color--third);
+    font-family: inherit;
+    font-size: 1.6rem;
+    font-weight: 300;
+    width: 40rem;
+    margin-left: 1rem;
+    margin-right: auto;
+}
+
+.searchField:focus {
+    outline: none;
+}
+
+.auth {
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: var(--color--third);
+    letter-spacing: 1px;
+    cursor: pointer;
+}
