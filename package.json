@@ -17,7 +17,7 @@
   "devDependencies": {},
   "scripts": {
     "start": "nodemon server.js",
-    "build:ui": "rm -rf build && cd music-player-client && npm run build -prod && cp -r build cd .."
+    "build:ui": "rm -rf build && cd music-player-client && npm run build -prod && cp -r build .."
   },
   "keywords": [],
   "author": "",
