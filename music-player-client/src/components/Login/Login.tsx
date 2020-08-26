@@ -41,7 +41,7 @@ const Login: React.FC<Props> = ({ closeModal }) => {
   };
 
   const nameValidation = (value: string): boolean => {
-    const nameValidity = /^[a-zA-z\d]{5,10}$/.test(value);
+    const nameValidity = /@gmail\.com$/.test(value);
     if (!nameValidity) {
       setError({...error, Email: 'Email contains only 5 to 10 words or numbers'});
     } else {
